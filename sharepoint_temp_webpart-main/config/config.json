@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "anzr-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/anzr/AnzrWebPart.js",
+          "manifest": "./src/webparts/anzr/AnzrWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AnzrWebPartStrings": "lib/webparts/anzr/loc/{locale}.js"
+  }
+}

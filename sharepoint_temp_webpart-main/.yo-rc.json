@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "ex-7",
+    "libraryId": "a997bffe-54d8-4fde-bf19-ba5ef0a73b12",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ex-7",
+    "solutionShortDescription": "ex-7 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

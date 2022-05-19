@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ex-7-client-side-solution",
+    "id": "a997bffe-54d8-4fde-bf19-ba5ef0a73b12",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ex-7 description"
+      },
+      "longDescription": {
+        "default": "ex-7 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ex-7 Feature",
+        "description": "The feature that activates elements of the ex-7 solution.",
+        "id": "cca43a99-7abb-4715-b4bf-32a3eb72f606",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ex-7.sppkg"
+  }
+}
